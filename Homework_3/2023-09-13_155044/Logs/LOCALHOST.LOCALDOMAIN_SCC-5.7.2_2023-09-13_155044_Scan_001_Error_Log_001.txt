@@ -1,0 +1,23 @@
+SCC - 5.7.2 on host LOCALHOST.LOCALDOMAIN running RedHat Variant 8.8 (x86_64)
+
+    Time	 Level	Message
+
+15:50:55	WARN	
+Manual Question Auto-Answer file for Oracle_Linux_8_STIG, version: 1.5.3 was not found in:
+/opt/scc/Resources/Content/Manual_Questions/Completed_Files/
+
+	All manual checks will be marked as 'Not Reviewed'.
+
+	* For CSCC Command Line Usage: Manual Question Auto-Answer templates for DISA STIG manual
+	checks can be found in:/opt/scc/Resources/Content/Manual_Questions/Templates/
+* For SCC GUI Usage:  Manual Question Auto-Answer results for DISA STIG manual checks can
+	be created by clicking on the 'Manual Questions' button in 'Content Details'
+
+	   Target System  :     LOCALHOST.LOCALDOMAIN
+	   Stream Name :        Oracle_Linux_8_STIG
+	   SCAP Stream:         Oracle_Linux_8_STIG
+	   Profile ID:          xccdf_mil.disa.stig_profile_MAC-1_Classified
+	   Definition ID:       oval:mil.disa.stig.ol8:def:1
+	   Test ID:             oval:mil.disa.stig.ol8:tst:100
+	   State ID:            oval:mil.disa.stig.ol8:ste:100
+

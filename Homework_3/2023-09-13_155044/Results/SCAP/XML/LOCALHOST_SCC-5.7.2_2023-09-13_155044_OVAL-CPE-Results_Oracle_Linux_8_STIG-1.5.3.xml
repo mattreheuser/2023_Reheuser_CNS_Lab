@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SessionID:2023-09-13_155044,HostName:LOCALHOST.LOCALDOMAIN,FileType:OVAL CPE Results,StreamName:Oracle_Linux_8_STIG-1.5.3,ErrorCount:0,WarnCount:0 -->
+
+<oval-res:oval_results xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-results-5 https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/oval-results-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#independent https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/independent-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/linux-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#windows https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/windows-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#solaris https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/solaris-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#hpux https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/hpux-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#macos https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/macos-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5 https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/oval-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#independent https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/independent-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/windows-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#linux https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/linux-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#solaris https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/solaris-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#hpux https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/hpux-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#macos https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/macos-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#unix https://raw.githubusercontent.com/OVALProject/Language/5.11.2/schemas/unix-system-characteristics-schema.xsd http://scap.nist.gov/schema/scap/constructs/1.2 https://csrc.nist.gov/schema/scap/1.2/scap-constructs_1.2.xsd http://scap.nist.gov/schema/asset-reporting-format/1.1 https://csrc.nist.gov/schema/asset-reporting-format/1.1/asset-reporting-format_1.1.0.xsd http://scap.nist.gov/schema/reporting-core/1.1 https://csrc.nist.gov/schema/reporting-core/1.1/reporting-core_1.1.0.xsd" xmlns:oval-res="http://oval.mitre.org/XMLSchema/oval-results-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:ind-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" xmlns:oval-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" xmlns:ind-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#independent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:unix-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#unix" xmlns:linux-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:linux-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#linux" xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" xmlns:win-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <oval-res:generator>
+            <oval:product_name>SCAP Compliance Checker</oval:product_name>
+            <oval:product_version>5.7.2</oval:product_version>
+            <oval:schema_version>5.11.2</oval:schema_version>
+            <oval:timestamp>2023-09-13T15:50:53</oval:timestamp>
+      </oval-res:generator>
+      <oval-res:directives>
+            <oval-res:definition_true content="full" reported="true"></oval-res:definition_true>
+            <oval-res:definition_false reported="true" content="full"></oval-res:definition_false>
+            <oval-res:definition_unknown content="full" reported="true"></oval-res:definition_unknown>
+            <oval-res:definition_error content="full" reported="true"></oval-res:definition_error>
+            <oval-res:definition_not_evaluated content="full" reported="true"></oval-res:definition_not_evaluated>
+            <oval-res:definition_not_applicable reported="true" content="full"></oval-res:definition_not_applicable>
+      </oval-res:directives>
+      <oval-def:oval_definitions>
+            <oval-def:generator>
+                  <oval:product_name>repotool</oval:product_name>
+                  <oval:schema_version>5.10</oval:schema_version>
+                  <oval:timestamp>2023-03-28T17:40:55</oval:timestamp>
+            </oval-def:generator>
+            <oval-def:definitions>
+                  <oval-def:definition version="3" class="inventory" id="oval:mil.disa.stig.ol8:def:1">
+                        <oval-def:metadata>
+                              <oval-def:title>Oracle Linux 8 is installed.</oval-def:title>
+                              <oval-def:affected family="unix">
+                                    <oval-def:platform>Oracle Linux 8</oval-def:platform>
+                              </oval-def:affected>
+                              <oval-def:reference source="CPE" ref_id="cpe:/o:oracle:linux:8"></oval-def:reference>
+                              <oval-def:description>Oracle Linux 8 is installed.</oval-def:description>
+                        </oval-def:metadata>
+                        <oval-def:criteria applicability_check="false">
+                              <oval-def:criterion applicability_check="false" comment="The oraclelinux-release package is version 8" test_ref="oval:mil.disa.stig.ol8:tst:100"></oval-def:criterion>
+                        </oval-def:criteria>
+                  </oval-def:definition>
+            </oval-def:definitions>
+            <oval-def:tests>
+                  <linux-def:rpminfo_test id="oval:mil.disa.stig.ol8:tst:100" version="1" state_operator="AND" check="all" comment="The oraclelinux-release package is version 8." check_existence="all_exist">
+                        <linux-def:object object_ref="oval:mil.disa.stig.ol8:obj:100"></linux-def:object>
+                        <linux-def:state state_ref="oval:mil.disa.stig.ol8:ste:100"></linux-def:state>
+                  </linux-def:rpminfo_test>
+            </oval-def:tests>
+            <oval-def:objects>
+                  <linux-def:rpminfo_object id="oval:mil.disa.stig.ol8:obj:100" version="1" comment="oraclelinux-release package">
+                        <linux-def:name>oraclelinux-release</linux-def:name>
+                  </linux-def:rpminfo_object>
+            </oval-def:objects>
+            <oval-def:states>
+                  <linux-def:rpminfo_state comment="Version 8.*" version="1" id="oval:mil.disa.stig.ol8:ste:100">
+                        <linux-def:version operation="pattern match">^8\.\d+$</linux-def:version>
+                  </linux-def:rpminfo_state>
+            </oval-def:states>
+      </oval-def:oval_definitions>
+      <oval-res:results>
+            <oval-res:system>
+                  <oval-res:definitions>
+                        <oval-res:definition definition_id="oval:mil.disa.stig.ol8:def:1" version="3" result="true">
+                              <oval-res:criteria applicability_check="false" operator="AND" result="true">
+                                    <oval-res:criterion applicability_check="false" version="1" test_ref="oval:mil.disa.stig.ol8:tst:100" result="true"></oval-res:criterion>
+                              </oval-res:criteria>
+                        </oval-res:definition>
+                  </oval-res:definitions>
+                  <oval-res:tests>
+                        <oval-res:test result="true" check="all" state_operator="AND" version="1" test_id="oval:mil.disa.stig.ol8:tst:100" check_existence="all_exist">
+                              <oval-res:tested_item item_id="1" result="true"></oval-res:tested_item>
+                        </oval-res:test>
+                  </oval-res:tests>
+                  <oval-sc:oval_system_characteristics>
+                        <oval-sc:generator>
+                              <oval:product_name>SCAP Compliance Checker</oval:product_name>
+                              <oval:product_version>5.7.2</oval:product_version>
+                              <oval:schema_version>5.11.2</oval:schema_version>
+                              <oval:timestamp>2023-09-13T15:50:53</oval:timestamp>
+                        </oval-sc:generator>
+                        <oval-sc:system_info>
+                              <oval-sc:os_name>RedHat Variant</oval-sc:os_name>
+                              <oval-sc:os_version>8.8</oval-sc:os_version>
+                              <oval-sc:architecture>x86_64</oval-sc:architecture>
+                              <oval-sc:primary_host_name>LOCALHOST</oval-sc:primary_host_name>
+                              <oval-sc:interfaces>
+                                    <oval-sc:interface>
+                                          <oval-sc:interface_name>lo</oval-sc:interface_name>
+                                          <oval-sc:ip_address>127.0.0.1</oval-sc:ip_address>
+                                          <oval-sc:mac_address>00:00:00:00:00:00</oval-sc:mac_address>
+                                    </oval-sc:interface>
+                                    <oval-sc:interface>
+                                          <oval-sc:interface_name>lo</oval-sc:interface_name>
+                                          <oval-sc:ip_address>::1/128</oval-sc:ip_address>
+                                          <oval-sc:mac_address>00:00:00:00:00:00</oval-sc:mac_address>
+                                    </oval-sc:interface>
+                                    <oval-sc:interface>
+                                          <oval-sc:interface_name>eth0</oval-sc:interface_name>
+                                          <oval-sc:ip_address>10.0.2.15</oval-sc:ip_address>
+                                          <oval-sc:mac_address>08:00:27:4c:90:30</oval-sc:mac_address>
+                                    </oval-sc:interface>
+                                    <oval-sc:interface>
+                                          <oval-sc:interface_name>eth0</oval-sc:interface_name>
+                                          <oval-sc:ip_address>fe80::a00:27ff:fe4c:9030/64</oval-sc:ip_address>
+                                          <oval-sc:mac_address>08:00:27:4c:90:30</oval-sc:mac_address>
+                                    </oval-sc:interface>
+                              </oval-sc:interfaces>
+                              <con:asset-identification xmlns:con="http://scap.nist.gov/schema/scap/constructs/1.2">
+                                    <arf:object-ref ref-id="SCC_LOCALHOST" xmlns:arf="http://scap.nist.gov/schema/asset-reporting-format/1.1" />
+                              </con:asset-identification>
+                        </oval-sc:system_info>
+                        <oval-sc:collected_objects>
+                              <oval-sc:object version="1" flag="complete" id="oval:mil.disa.stig.ol8:obj:100">
+                                    <oval-sc:reference item_ref="1"></oval-sc:reference>
+                              </oval-sc:object>
+                        </oval-sc:collected_objects>
+                        <oval-sc:system_data>
+                              <linux-sc:rpminfo_item id="1" status="exists">
+                                    <linux-sc:name>oraclelinux-release</linux-sc:name>
+                                    <linux-sc:arch>x86_64</linux-sc:arch>
+                                    <linux-sc:epoch>8</linux-sc:epoch>
+                                    <linux-sc:release>1.0.6.el8</linux-sc:release>
+                                    <linux-sc:version datatype="version">8.8</linux-sc:version>
+                                    <linux-sc:evr datatype="evr_string">8:8.8-1.0.6.el8</linux-sc:evr>
+                                    <linux-sc:signature_keyid>82562ea9ad986da3</linux-sc:signature_keyid>
+                                    <linux-sc:extended_name>oraclelinux-release-8:8.8-1.0.6.el8.x86_64</linux-sc:extended_name>
+                                    <linux-sc:filepath status="not collected"></linux-sc:filepath>
+                              </linux-sc:rpminfo_item>
+                        </oval-sc:system_data>
+                  </oval-sc:oval_system_characteristics>
+            </oval-res:system>
+      </oval-res:results>
+</oval-res:oval_results>
