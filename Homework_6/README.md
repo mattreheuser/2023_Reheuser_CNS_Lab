@@ -10,7 +10,7 @@ I enrolled into the Splunk training course on getting data into Splunk. While th
 The Windows event ID I blacklisted from our splunk was 4624. 4624 is the event ID thaty gets passed when there is a successful login. The reason we choose to exclude that ID was because we though that information by itself was something that could produce a lot of logs while not adding much functionality for our team.  
 
 ### - Input.conf
-The input.conf file is located within the etc/system of the SplunkUniversalForwarder. The etc folder is used to store system configuration files which makes sense for having the input configuration file in there. 
+The input.conf file is located within the etc/system of the SplunkUniversalForwarder. The etc folder is used to store system configuration files which makes sense for having the input configuration file in there.  
 ![File system](./pictures/fileStructure.png)  
 
 
